@@ -1,8 +1,7 @@
-module github.com/heroiclabs/nakama-project-template
+module github.com/andres/anitra-server
 
-go 1.23.5
+go 1.25.5
 
-require (
-	github.com/heroiclabs/nakama-common v1.36.0
-	google.golang.org/protobuf v1.36.4
-)
+require github.com/heroiclabs/nakama-common v1.44.2
+
+require google.golang.org/protobuf v1.36.11 // indirect
